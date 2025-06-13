@@ -18,3 +18,4 @@
 
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
+git clone --depth=1 https://github.com/vernesong/OpenClash.git package/openclash
