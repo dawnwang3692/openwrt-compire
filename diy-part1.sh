@@ -17,4 +17,5 @@
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
+[ -d package/openclash ] && rm -rf package/openclash
 git clone --depth=1 https://github.com/vernesong/OpenClash.git package/openclash
